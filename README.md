@@ -1,13 +1,14 @@
 # 🌐 وب‌سایت شخصی (Demo)
 
 یک وب‌سایت شخصی ساده و زیبا که با استفاده از **HTML، CSS و JavaScript** طراحی شده است.
-این پروژه به عنوان یک نمونه‌ی تمرینی برای طراحی رابط کاربری واکنش‌گرا و جذاب ساخته شده و شامل بخش‌های مختلفی مانند معرفی، خدمات، نمونه‌کارها، تجربه کاری، فرم تماس و بخش نظرات مشتریان می‌باشد.
+این پروژه به عنوان یک نمونه‌ی تمرینی برای طراحی رابط کاربری واکنش‌گرا و جذاب ساخته شده و شامل بخش‌های مختلفی مانند معرفی، خدمات، نمونه‌کارها، تجربه کاری، فرم تماس، **رزرو وقت (Booking)** و بخش نظرات مشتریان می‌باشد.
 
 [![HTML5](https://img.shields.io/badge/HTML-5-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS-3-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+ 
 
 ## 🚀 ویژگی‌ها
 
@@ -19,15 +20,18 @@
 * گالری **نمونه‌کارها (Portfolio)**
 * بخش **نظرات مشتریان (Testimonials)**
 * **فرم تماس (Contact Form)** برای ارتباط مستقیم
+* **بخش رزرو وقت (Booking / Reservation)** برای تعیین وقت ملاقات با شخص
 * صفحه‌ی جداگانه برای **بلاگ‌ها (Blog Page)** با چند پست نمونه
 
+ 
 
 ## 🛠️ تکنولوژی‌های استفاده شده
 
 * **HTML5** → ساختار صفحات
 * **CSS3** → استایل‌دهی و طراحی واکنش‌گرا
+* **JavaScript**
 
-
+ 
 ## 📸 پیش‌نمایش (Screenshots)
 
 
@@ -35,66 +39,59 @@
   بخش اصلی
 </p>
 
-<img width="1343" height="642" alt="hero" src="https://github.com/user-attachments/assets/85323970-fd62-430c-bcdd-b7a08113f3fe" />
+
+![hero](https://github.com/user-attachments/assets/78618db6-498f-484f-9e9e-c32cddf87736)
+
+
 
 <p align="center">
  بخش درباره من
 </p>
 
+![about](https://github.com/user-attachments/assets/357b5c56-fe1f-4a0e-a35a-570970b8c355)
 
 
-<img width="1343" height="642" alt="about" src="https://github.com/user-attachments/assets/df2b15dc-7731-4cf3-961a-0673bfb23eb2" />
 <p align="center">
-  بخش تجربه و سابقه کار
+  بخش سابقه کار و تجربه
 </p>
 
+![experience](https://github.com/user-attachments/assets/ec1f5847-244d-41b2-ae2b-0856d5f9f88f)
 
 
 
-<img width="1343" height="642" alt="experience" src="https://github.com/user-attachments/assets/70307487-2426-4fd7-8c8a-94c0db67c355" />
 <p align="center">
- بخش خدمات
+  بخش خدمات
 </p>
 
+![services](https://github.com/user-attachments/assets/f5294004-46c3-430e-84a1-4ed66cd3c18d)
 
-
-
-<img width="1343" height="641" alt="services" src="https://github.com/user-attachments/assets/9691f54a-c956-470a-b0c4-37c5c1a6051e" />
 <p align="center">
   بخش نمونه کار ها
 </p>
 
+![portfolio](https://github.com/user-attachments/assets/e21fb70d-fb37-429d-b887-b6925ed45b35)
 
-
-
-<img width="1343" height="642" alt="portfolio" src="https://github.com/user-attachments/assets/d7715ce8-c87d-4983-85ae-4e0cff58ac7e" />
 <p align="center">
-  بخش وبلاگ
+  بخش رزرو
 </p>
 
+![booking](https://github.com/user-attachments/assets/19ab65d6-f3d8-495d-b2a8-ca195bbee7cb)
 
 
-<img width="1343" height="642" alt="blog" src="https://github.com/user-attachments/assets/760eac0a-489f-4a2c-bce3-3e8b39ea756f" />
+
 <p align="center">
   بخش نظرات مشتریان
 </p>
 
 
+![testimonial](https://github.com/user-attachments/assets/871437a1-7f39-45d6-8f97-b544b01c74c0)
 
 
-<img width="1343" height="642" alt="testimonial" src="https://github.com/user-attachments/assets/24ad43bb-c1ae-4e0d-95be-69b9624bfa05" />
 <p align="center">
   بخش ارتباط با من
 </p>
 
-
-
-
-
-<img width="1343" height="641" alt="contact" src="https://github.com/user-attachments/assets/cbbee848-affd-4a7c-89b5-1465476a5875" />
-
-
-
+![contact](https://github.com/user-attachments/assets/533f71c7-f935-431c-99e7-1a83ab5020dd)
 
 ## ⚙️ نصب و راه‌اندازی
 
@@ -104,15 +101,13 @@
    git clone https://github.com/Alireza-Jafari-tech/personal-website-demo.git
    cd personal-website-demo
    ```
-
 2. فایل اصلی پروژه را در مرورگر باز کنید:
 
    ```bash
    index.html
    ```
 
-   یا روی فایل راست‌کلیک کرده و گزینه‌ی **"Open with Browser"** را انتخاب کنید.
-
+ 
 
 ## 📂 ساختار پروژه
 
@@ -127,18 +122,20 @@ personal-website-demo
 │  ├─ style.css              → استایل اصلی سایت
 │  └─ blog-page.css          → استایل اختصاصی صفحه بلاگ
 ├─ js/
-│  └─ script.js              → کدهای JavaScript
+│  └─ script.js              → کدهای JavaScript و فرم رزرو وقت
 ├─ images/
-│  ├─ hero-image.png         → تصویر اصلی بخش معرفی
-│  ├─ about-me.jpg           → تصویر بخش درباره من
-│  ├─ portfolio/             → تصاویر پروژه‌ها
-│  ├─ client/                → تصاویر مشتریان
-│  └─ blog/                  → تصاویر مقالات
+│  ├─ hero-image.png
+│  ├─ about-me.jpg
+│  ├─ portfolio/
+│  ├─ client/
+│  ├─ blog/
+│  └─ booking/               → تصاویر و آیکون‌های رزرو وقت
 ├─ fonts/
 │  └─ Yekan/                 → فونت فارسی BYekan+
 └─ icons/                    → آیکون‌های مختلف شرکت‌ها
 ```
 
+ 
 
 ## 🎯 اهداف آموزشی پروژه
 
@@ -146,8 +143,9 @@ personal-website-demo
 * یادگیری ساختاردهی صفحات HTML به شکل حرفه‌ای
 * تمرین استایل‌دهی با CSS و طراحی واکنش‌گرا (Responsive Design)
 * آشنایی با انیمیشن‌ها و رفتارهای ساده با JavaScript
-* ساخت صفحات چندبخشی مانند Portfolio و Contact Form
+* ساخت صفحات چندبخشی مانند Portfolio، Contact Form و Booking
 
+ 
 
 ## 🧑‍💻 نحوه استفاده
 
@@ -156,17 +154,135 @@ personal-website-demo
 * **Portfolio** برای نمایش پروژه‌ها
 * **Services** برای معرفی خدمات قابل ارائه
 * **Contact** برای ارسال پیام توسط کاربران
+* **Booking / Reservation** برای رزرو وقت و تعیین ملاقات
 * **Blog Page** جهت نمایش پست‌ها و مقالات
 
+ 
 
 ## 📝 مجوز (License)
 
 این پروژه تحت مجوز **MIT License** منتشر شده است.
 برای اطلاعات بیشتر فایل `LICENSE` را مطالعه کنید.
 
+ 
 
 ## 🤝 مشارکت (Contributing)
 
 این پروژه به‌عنوان یک نمونه‌ی تمرینی و آموزشی ایجاد شده است.
 اگر ایده یا بهبودی برای آن دارید، می‌توانید **Fork** کنید و **Pull Request** بفرستید.
 با کمال میل بررسی می‌شود! 💡
+
+ 
+
+# 🌍 Personal Website (Demo)
+
+A simple and elegant **personal website** built with **HTML, CSS, and JavaScript**.
+This project serves as a demo for building a responsive personal portfolio website including sections like Hero, About, Services, Portfolio, Experience, **Booking**, Testimonials, Contact Form, and Blog.
+
+[![HTML5](https://img.shields.io/badge/HTML-5-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS-3-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+ 
+
+## 🚀 Features
+
+* Modern and **Responsive Design**
+* **Hero Section** with intro and CTA
+* **About Me** section with profile information
+* **Experience** timeline
+* **Services** overview
+* **Portfolio** gallery
+* **Testimonials** section
+* **Contact Form** for direct communication
+* **Booking / Reservation** section for scheduling meetings or sessions
+* **Blog Page** with sample posts
+
+ 
+
+## 🛠️ Technologies Used
+
+* **HTML5** → Page structure
+* **CSS3** → Styling and responsive layout
+* **JavaScript**
+
+ 
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Alireza-Jafari-tech/personal-website-demo.git
+   cd personal-website-demo
+   ```
+2. Open the main HTML file in your browser:
+
+   ```bash
+   index.html
+   ```
+
+ 
+
+## 📂 Project Structure
+
+```bash
+personal-website-demo
+├─ index.html                → Main page
+├─ blog-page/
+│  ├─ blog1.html
+│  ├─ blog2.html
+│  └─ blog3.html
+├─ css/
+│  ├─ style.css
+│  └─ blog-page.css
+├─ js/
+│  └─ script.js
+├─ images/
+│  ├─ hero-image.png
+│  ├─ about-me.jpg
+│  ├─ portfolio/
+│  ├─ client/
+│  ├─ blog/
+│  └─ booking/
+├─ fonts/
+│  └─ Yekan/
+└─ icons/
+```
+
+ 
+
+## 🎯 Learning Goals
+
+* Practice **UI design and layout**
+* Learn to structure clean HTML pages
+* Improve **CSS and responsive design** skills
+* Add simple animations and interactivity with JS
+* Build multi-section pages like Portfolio, Contact, and Booking
+
+ 
+
+## 🧑‍💻 Usage
+
+* **Hero** → Introduce yourself and your role
+* **About** → Share your story and skills
+* **Portfolio** → Showcase your projects
+* **Services** → Display what you offer
+* **Booking** → Let users schedule a time with you
+* **Contact** → Receive direct messages
+* **Blog** → Share your latest posts
+
+ 
+
+## 📝 License
+
+This project is licensed under the **MIT License**.
+See the `LICENSE` file for details.
+
+ 
+
+## 🤝 Contributing
+
+This project is created for **learning and practice purposes**.
+Feel free to fork, modify, and submit **pull requests** — contributions are welcome! 🚀
