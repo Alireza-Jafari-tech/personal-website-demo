@@ -809,8 +809,10 @@ a {
 .booking-section {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column-reverse;
+  gap: 20px;
   padding: 1rem;
+  align-items: center;
 }
 
 /* Calendly widget container */
@@ -819,6 +821,14 @@ a {
   max-width: 770px; /* Keeps it neat on large screens */
   height: 920px; /* Default height for desktop */
   border: none;
+}
+
+#calendly-btn {
+  background-color: #4e5bf0;
+  color: #fff;
+  border-radius: 20px;
+  padding: 12px;
+  font-weight: bold;
 }
 
 /* Adjust height for tablets and smaller devices */

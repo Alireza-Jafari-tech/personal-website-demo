@@ -16,6 +16,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link
+      href="css/calendly-widget.css"
+      rel="stylesheet"
+    />
     <!-- <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/font-awesome2.css"> -->
 
@@ -414,6 +418,12 @@
             width: 770px;
           "
         ></div>
+        <a
+          href=""
+          id="calendly-btn"
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/a-jafari-tech/book'});return false;"
+          >Book time with me</a
+        >
         <!-- <iframe
           src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID&ctz=America%2FNew_York"
           style="border: 0"
@@ -769,9 +779,17 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
-    <script
-      src="https://assets.calendly.com/assets/external/widget.js"
-      defer
-    ></script>
+    <script src="js/calendly-widget.js" defer></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        Calendly.initBadgeWidget({
+          url: "https://calendly.com/a-jafari-tech/book",
+          text: "Book time with me",
+          color: "#4e5bf0",
+          textColor: "#ffffff",
+          branding: true,
+        });
+      };
+    </script>
   </body>
 </html>
