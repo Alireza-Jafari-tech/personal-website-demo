@@ -12,6 +12,11 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  width: 100%;
+  min-width: 100%;
+}
+
 body {
   font-family: yekan;
   background: #f9f9fc;
