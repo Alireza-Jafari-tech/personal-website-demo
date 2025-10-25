@@ -40,4 +40,24 @@ var swiper = new Swiper(".mySwiper", {
   observeSlideChildren: true,
 });
 
-//-----------------------------
+// === Scroll To Top Button ===
+
+const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+window.addEventListener("scroll", () => {
+  // Show button after scrolling 300px
+  if (window.scrollY > 300) {
+    scrollTopBtn.style.display = "block";
+    scrollTopBtn.style.opacity = "1";
+  } else {
+    scrollTopBtn.style.opacity = "0";
+    setTimeout(() => {
+      if (window.scrollY < 300) scrollTopBtn.style.display = "none";
+    }, 300);
+  }
+});
+
+// Smooth scroll to top
+scrollTopBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});

@@ -16,16 +16,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link
-      href="css/calendly-widget.css"
-      rel="stylesheet"
-    />
+    <link href="css/calendly-widget.css" rel="stylesheet" />
     <!-- <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/font-awesome2.css"> -->
 
     <title>سایت آماده رزومه</title>
   </head>
   <body>
+    <!-- header -->
     <header>
       <div class="hero" id="hero">
         <div class="overlay"></div>
@@ -88,7 +86,7 @@
         </div>
 
         <!-- Hero section -->
-        <div class="hero-content">
+        <div class="hero-content reveal fade-up">
           <h1>سلام! من علی احمدی هستم</h1>
           <h1>
             مدرس زبان انگلیسی با بیش از ۸ سال تجربه آموزش به زبان‌آموزان از
@@ -115,7 +113,7 @@
       <section class="about-section" id="about-section">
         <div class="about-container">
           <!-- Left text -->
-          <div class="about-text">
+          <div class="about-text reveal slide-left">
             <h2>درباره من</h2>
             <h3>
               من علی احمدی هستم، مدرس زبان انگلیسی با بیش از ۸ سال سابقه تدریس
@@ -154,14 +152,14 @@
           </div>
 
           <!-- Right image -->
-          <div class="about-image">
+          <div class="about-image reveal slide-right">
             <img src="images/about-me.webp" alt="About Me" />
           </div>
         </div>
       </section>
 
       <section class="companies-section" id="companies-section">
-        <div class="companies-text">
+        <div class="companies-text reveal fade-up">
           <!-- <span class="sub-title">
             هشت سال سابقه کاری در بهترین شرکت های فناوری اطلاعات
           </span> -->
@@ -175,7 +173,7 @@
           <a href="#portfolio-section" class="btn"> مشاهده سوابق کامل </a>
         </div>
 
-        <div class="companies-grid">
+        <div class="companies-grid reveal zoom-in">
           <div class="company-card">
             <img src="icons/company-icon (1).webp" alt="آکادمی ایران‌لرن" />
             <h3>آکادمی زبان ایران‌لرن</h3>
@@ -224,7 +222,7 @@
       </section>
 
       <section class="services-section" id="services-section">
-        <div class="services-header">
+        <div class="services-header reveal fade-up">
           <h2>خدمات من</h2>
           <p>
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -234,7 +232,7 @@
 
         <div class="services-grid">
           <!-- آموزش مکالمه روزمره -->
-          <div class="service-card">
+          <div class="service-card reveal fade-up" style="--delay:0s"">
             <div class="icon">
               <i class="fa-solid fa-comments" aria-hidden="true"></i>
             </div>
@@ -246,7 +244,7 @@
           </div>
 
           <!-- تقویت مهارت شنیداری -->
-          <div class="service-card">
+          <div class="service-card reveal fade-up" style="--delay:0.15s">
             <div class="icon">
               <i class="fa-solid fa-headphones" aria-hidden="true"></i>
             </div>
@@ -258,7 +256,7 @@
           </div>
 
           <!-- آمادگی آزمون آیلتس / تافل -->
-          <div class="service-card">
+          <div class="service-card reveal fade-up" style="--delay:0.45s">
             <div class="icon">
               <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
             </div>
@@ -270,7 +268,7 @@
           </div>
 
           <!-- کلاس خصوصی آنلاین -->
-          <div class="service-card">
+          <div class="service-card reveal fade-up" style="--delay:0.6s">
             <div class="icon">
               <i class="fa-solid fa-laptop" aria-hidden="true"></i>
             </div>
@@ -282,7 +280,7 @@
           </div>
 
           <!-- آموزش گرامر و لغت -->
-          <div class="service-card">
+          <div class="service-card reveal fade-up" style="--delay:0.75s">
             <div class="icon">
               <i class="fa-solid fa-book-open" aria-hidden="true"></i>
             </div>
@@ -294,7 +292,7 @@
           </div>
 
           <!-- آموزش زبان برای سفر -->
-          <div class="service-card">
+          <div class="service-card reveal fade-up" style="--delay:90s">
             <div class="icon">
               <i class="fa-solid fa-plane-departure" aria-hidden="true"></i>
             </div>
@@ -306,7 +304,7 @@
           </div>
 
           <!-- مکالمه تجاری و کاری -->
-          <div class="service-card">
+          <div class="service-card reveal fade-up" style="--delay:1.05s">
             <div class="icon">
               <i class="fa-solid fa-briefcase" aria-hidden="true"></i>
             </div>
@@ -318,7 +316,7 @@
           </div>
 
           <!-- ارزیابی و مشاوره سطح زبان -->
-          <div class="service-card">
+          <div class="service-card reveal fade-up" style="--delay:1.2s">
             <div class="icon">
               <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i>
             </div>
@@ -331,7 +329,7 @@
         </div>
       </section>
       <section class="portfolio-section" id="portfolio-section">
-        <div class="portfolio-header">
+        <div class="portfolio-header reveal fade-up">
           <h2>نمونه کارها</h2>
           <p>
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -340,7 +338,7 @@
         </div>
 
         <div class="portfolio-grid">
-          <div class="portfolio-item">
+          <div class="portfolio-item reveal zoom-in">
             <img
               src="images/portfolio/english-speaking.webp"
               alt="دوره آنلاین اسپیکینگ بوست"
@@ -351,7 +349,7 @@
             </div>
           </div>
 
-          <div class="portfolio-item">
+          <div class="portfolio-item reveal zoom-in">
             <img
               src="images/portfolio/english-for-travel.webp"
               alt="کارگاه انگلیسی برای سفر"
@@ -362,7 +360,7 @@
             </div>
           </div>
 
-          <div class="portfolio-item">
+          <div class="portfolio-item reveal zoom-in">
             <img
               src="images/portfolio/english-at-work.webp"
               alt="دوره زبان انگلیسی کاری"
@@ -373,7 +371,7 @@
             </div>
           </div>
 
-          <div class="portfolio-item">
+          <div class="portfolio-item reveal zoom-in">
             <img
               src="images/portfolio/speak-english.webp"
               alt="چالش صد روز مکالمه انگلیسی"
@@ -384,7 +382,7 @@
             </div>
           </div>
 
-          <div class="portfolio-item">
+          <div class="portfolio-item reveal zoom-in">
             <img
               src="images/portfolio/english-pronounciation.webp"
               alt="دوره تقویت تلفظ انگلیسی"
@@ -395,7 +393,7 @@
             </div>
           </div>
 
-          <div class="portfolio-item">
+          <div class="portfolio-item reveal zoom-in">
             <img
               src="images/portfolio/IELTS.webp"
               alt="دوره اسپیکینگ آیلتس مستری"
@@ -424,21 +422,12 @@
           onclick="Calendly.initPopupWidget({url: 'https://calendly.com/a-jafari-tech/book'});return false;"
           >Book time with me</a
         >
-        <!-- <iframe
-          src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID&ctz=America%2FNew_York"
-          style="border: 0"
-          width="100%"
-          height="600"
-          frameborder="0"
-          scrolling="no"
-        >
-        </iframe> -->
       </section>
       <section class="stats-testimonials" id="stats-testimonials">
         <div class="overlay"></div>
         <div class="container">
           <!-- Left side - Stats -->
-          <div class="stats">
+          <div class="stats reveal fade-up">
             <h2>اجازه دهید اعداد سخن بگویند !</h2>
             <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
 
@@ -475,7 +464,7 @@
           </div>
 
           <!-- Right side - Testimonials -->
-          <div class="testimonials">
+          <div class="testimonials reveal fade-up">
             <h2>مشتریان در مورد من چی می‌گویند ؟</h2>
             <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
 
@@ -585,7 +574,7 @@
 
           <div class="blog-grid">
             <!-- Blog Card 1 -->
-            <div class="blog-card">
+            <div class="blog-card reveal slide-up">
               <img src="images/blog/listening-english.webp" alt="Blog Post" />
               <div class="blog-content">
                 <h3>چطور مکالمه انگلیسی خود را تقویت کنیم؟</h3>
@@ -601,7 +590,7 @@
             </div>
 
             <!-- Blog Card 2 -->
-            <div class="blog-card">
+            <div class="blog-card reveal slide-up">
               <img src="images/blog/useful-expressions.webp" alt="Blog Post" />
               <div class="blog-content">
                 <h3>۵ عبارت رایج در گفت‌وگوی روزمره انگلیسی</h3>
@@ -617,7 +606,7 @@
             </div>
 
             <!-- Blog Card 3 -->
-            <div class="blog-card">
+            <div class="blog-card reveal slide-up">
               <img
                 src="images/blog/english-for-interview.webp"
                 alt="Blog Post"
@@ -646,7 +635,7 @@
           </p> -->
 
           <form
-            class="contact-form"
+            class="contact-form reveal fade-up"
             action="https://webhook.site/1a3f2597-e548-45da-bf3e-9270c674ea1f"
           >
             <div class="form-group">
@@ -720,7 +709,7 @@
             </button>
           </form>
 
-          <div class="contact-info">
+          <div class="contact-info reveal fade-up">
             <div class="info-item">
               <i class="fa fa-phone icon" aria-hidden="true"></i>
               <h4>شماره تماس</h4>
@@ -744,7 +733,7 @@
       </section>
       <section class="clients-section">
         <div class="container">
-          <div class="social">
+          <div class="social reveal rotate-in">
             <div class="social-icons">
               <a href="https://www.linkedin.com/in/alireza-jafari-tech"
                 ><i class="fab fa-telegram"></i
@@ -775,6 +764,10 @@
         </div>
       </section>
     </main>
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="برو بالا">
+      <i class="fa fa-arrow-up"></i>
+    </button>
     <footer></footer>
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -791,5 +784,6 @@
         });
       };
     </script>
+    <script src="js/animation.js"></script>
   </body>
 </html>
