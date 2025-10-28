@@ -966,6 +966,10 @@ a {
   padding: 15px 10px 50px;
 }
 
+.swiper-wrapper {
+  height: 250px !important;
+}
+
 .swiper-slide {
   text-align: center;
   display: flex;
@@ -1729,4 +1733,40 @@ textarea:focus {
 #scrollTopBtn:hover {
   background-color: #4338ca;
   transform: scale(1.1);
+}
+
+/* -------------------------------------- */
+/* video */
+
+.video-label {
+  margin-top: 50px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* For screens smaller than 600px */
+@media (max-width: 700px) {
+  .video-container iframe {
+    width: 70%;
+    height: 70%;
+  }
+}
+@media (max-width: 350px) {
+  .video-label {
+    font-size: 13px;
+  }
 }
