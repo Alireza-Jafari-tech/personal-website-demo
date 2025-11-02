@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link href="css/calendly-widget.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome2.css"> -->
+
+    <title>سایت آماده رزومه</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="hero" id="hero">
+        <div class="overlay"></div>
+        <!-- Navbar -->
+        <div class="navbar">
+          <div class="logo">
+            <a href="#booking-section" id="nav-consult-btn"> مشاوره </a>
+          </div>
+          <div class="menu-toggle" id="menu-toggle">
+            <i class="fa fa-bars"></i>
+          </div>
+
+          <ul id="nav-menu">
+            <li>
+              <a href="#hero">
+                خانه
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#about-section">
+                درباره من
+                <i class="fa fa-id-card-o" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#companies-section">
+                سوابق کاری من
+                <i class="fa fa-list" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#services-section">
+                خدمات من
+                <i class="fa fa-wrench" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#portfolio-section">
+                نمونه کار ها
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#stats-testimonials">
+                بازخورد ها
+                <i class="fa fa-file-text" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#blog-section">
+                وبلاگ
+                <i class="fa fa-commenting-o" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="logo">
+            <a href="#hero"> وب سایت من </a>
+          </div>
+        </div>
+
+        <!-- Hero section -->
+        <div class="hero-content reveal fade-up">
+          <h1>سلام! من علی احمدی هستم</h1>
+          <h1>
+            مدرس زبان انگلیسی با بیش از ۸ سال تجربه آموزش به زبان‌آموزان از
+            سراسر دنیا
+          </h1>
+          <p>
+            یادگیری زبان انگلیسی می‌تونه ساده، لذت‌بخش و واقعی باشه — درست مثل
+            مکالمه‌های روزمره‌ات. با من انگلیسی رو طوری یاد بگیر که بتونی با
+            اعتماد به نفس صحبت کنی.
+          </p>
+          <div class="buttons">
+            <a href="#services-section" class="btn btn-secondary"
+              >شروع یادگیری</a
+            >
+            <a href="#booking-section" class="btn btn-primary"
+              >رزرو جلسه مشاوره رایگان</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- About Me Section -->
+      <section class="about-section" id="about-section">
+        <div class="about-container">
+          <!-- Left text -->
+          <div class="about-text reveal slide-left">
+            <h2>درباره من</h2>
+            <h3>
+              من علی احمدی هستم، مدرس زبان انگلیسی با بیش از ۸ سال سابقه تدریس
+              به کودکان، نوجوانان و بزرگسالان
+            </h3>
+            <p>
+              تخصص من آموزش مکالمه کاربردی و تقویت مهارت گفت‌وگو برای شرایط
+              واقعی زندگیه — از مصاحبه کاری تا سفر و ارتباط روزمره
+            </p>
+
+            <hr />
+
+            <div class="about-info">
+              <div>
+                <p><strong>اسم من :</strong> علی احمدی</p>
+                <p><strong>سن من :</strong> ۲۵ سال</p>
+              </div>
+              <div>
+                <p>
+                  <strong>ایمیل من :</strong>
+                  <a href="mailto:resume@gmail.com">resume@gmail.com</a>
+                </p>
+                <p>
+                  <a href="tel:09120000000">0912-2222222</a>
+                  <strong>:شماره تماس من </strong>
+                </p>
+              </div>
+            </div>
+
+            <div class="about-buttons">
+              <a class="btn btn-primary" href="#companies-section"
+                >درباره من بیشتر بدانید</a
+              >
+              <a class="btn btn-secondary" href="#booking-section">رزرو کلاس</a>
+            </div>
+          </div>
+
+          <!-- Right image -->
+          <div class="about-image reveal slide-right">
+            <img src="images/about-me.webp" alt="About Me" />
+          </div>
+        </div>
+      </section>
+
+      <section class="companies-section" id="companies-section">
+        <div class="companies-text reveal fade-up">
+          <!-- <span class="sub-title">
+            هشت سال سابقه کاری در بهترین شرکت های فناوری اطلاعات
+          </span> -->
+          <h2>
+            مکان‌هایی که در آن‌ها <span class="highlight">تدریس </span> کرده‌ام
+          </h2>
+          <p>
+            در طول این سال‌ها، افتخار داشتم به بیش از ۴۰۰ زبان‌آموز از کشورهای
+            مختلف کمک کنم تا با اعتماد به نفس انگلیسی صحبت کنند.
+          </p>
+          <a href="#portfolio-section" class="btn"> مشاهده سوابق کامل </a>
+        </div>
+
+        <div class="companies-grid reveal zoom-in">
+          <div class="company-card">
+            <img src="icons/company-icon (1).webp" alt="آکادمی ایران‌لرن" />
+            <h3>آکادمی زبان ایران‌لرن</h3>
+            <p>۱۳۹۵ تا ۱۳۹۸</p>
+          </div>
+
+          <div class="company-card">
+            <img src="icons/company-icon (2).webp" alt="پلتفرم LinguaConnect" />
+            <h3>پلتفرم بین‌المللی LinguaConnect</h3>
+            <p>۱۳۹۹ تا ۱۴۰۱</p>
+          </div>
+
+          <div class="company-card">
+            <img src="icons/company-icon (3).webp" alt="مدرس خصوصی آنلاین" />
+            <h3>مدرس خصوصی آنلاین</h3>
+            <p>از ۱۴۰۱ تا امروز</p>
+          </div>
+
+          <div class="company-card">
+            <img
+              src="icons/company-icon (4).webp"
+              alt="مؤسسه زبان ایران‌نوین"
+            />
+            <h3>مؤسسه زبان ایران‌نوین</h3>
+            <p>۱۳۹۴ تا ۱۳۹۵</p>
+          </div>
+
+          <div class="company-card">
+            <img
+              src="icons/company-icon (5).webp"
+              alt="مرکز آموزشی EnglishLand"
+            />
+            <h3>مرکز آموزشی EnglishLand</h3>
+            <p>۱۳۹۸ تا ۱۳۹۹</p>
+          </div>
+
+          <div class="company-card">
+            <img
+              src="icons/company-icon (6).webp"
+              alt="مدرس دوره‌های IELTS آنلاین"
+            />
+            <h3>مدرس دوره‌های IELTS آنلاین</h3>
+            <p>۱۴۰۰ تا امروز</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services-section" id="services-section">
+        <div class="services-header reveal fade-up">
+          <h2>خدمات من</h2>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- آموزش مکالمه روزمره -->
+          <div class="service-card reveal fade-up" style="--delay:0s"">
+            <div class="icon">
+              <i class="fa-solid fa-comments" aria-hidden="true"></i>
+            </div>
+            <h3>آموزش مکالمه روزمره</h3>
+            <p>
+              تمرکز بر تقویت مهارت گفتاری در موقعیت‌های روزمره برای داشتن
+              مکالمه‌ای روان و طبیعی.
+            </p>
+          </div>
+
+          <!-- تقویت مهارت شنیداری -->
+          <div class="service-card reveal fade-up" style="--delay:0.15s">
+            <div class="icon">
+              <i class="fa-solid fa-headphones" aria-hidden="true"></i>
+            </div>
+            <h3>تقویت مهارت شنیداری</h3>
+            <p>
+              تمرین با ویدیو، پادکست و گفت‌وگوهای واقعی برای افزایش درک شنیداری
+              زبان انگلیسی.
+            </p>
+          </div>
+
+          <!-- آمادگی آزمون آیلتس / تافل -->
+          <div class="service-card reveal fade-up" style="--delay:0.45s">
+            <div class="icon">
+              <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+            </div>
+            <h3>آمادگی آزمون آیلتس / تافل</h3>
+            <p>
+              آموزش مهارت‌های لازم برای موفقیت در آزمون‌های بین‌المللی زبان
+              انگلیسی با نمونه سوال و نکات کلیدی.
+            </p>
+          </div>
+
+          <!-- کلاس خصوصی آنلاین -->
+          <div class="service-card reveal fade-up" style="--delay:0.6s">
+            <div class="icon">
+              <i class="fa-solid fa-laptop" aria-hidden="true"></i>
+            </div>
+            <h3>کلاس خصوصی آنلاین</h3>
+            <p>
+              جلسات خصوصی و منعطف به صورت آنلاین با تمرکز بر اهداف و سطح زبان
+              شما.
+            </p>
+          </div>
+
+          <!-- آموزش گرامر و لغت -->
+          <div class="service-card reveal fade-up" style="--delay:0.75s">
+            <div class="icon">
+              <i class="fa-solid fa-book-open" aria-hidden="true"></i>
+            </div>
+            <h3>آموزش گرامر و لغت</h3>
+            <p>
+              یادگیری آسان و کاربردی دستور زبان و واژگان ضروری برای مکالمه و
+              نوشتار بهتر.
+            </p>
+          </div>
+
+          <!-- آموزش زبان برای سفر -->
+          <div class="service-card reveal fade-up" style="--delay:90s">
+            <div class="icon">
+              <i class="fa-solid fa-plane-departure" aria-hidden="true"></i>
+            </div>
+            <h3>آموزش زبان برای سفر</h3>
+            <p>
+              یادگیری اصطلاحات و جملات ضروری برای برقراری ارتباط در موقعیت‌های
+              سفر و گردشگری.
+            </p>
+          </div>
+
+          <!-- مکالمه تجاری و کاری -->
+          <div class="service-card reveal fade-up" style="--delay:1.05s">
+            <div class="icon">
+              <i class="fa-solid fa-briefcase" aria-hidden="true"></i>
+            </div>
+            <h3>مکالمه تجاری و کاری</h3>
+            <p>
+              آموزش زبان تخصصی برای محیط‌های کاری، جلسات، ایمیل‌ها و مصاحبه‌های
+              شغلی.
+            </p>
+          </div>
+
+          <!-- ارزیابی و مشاوره سطح زبان -->
+          <div class="service-card reveal fade-up" style="--delay:1.2s">
+            <div class="icon">
+              <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i>
+            </div>
+            <h3>ارزیابی و مشاوره سطح زبان</h3>
+            <p>
+              تعیین سطح دقیق و ارائه مسیر آموزشی مناسب برای پیشرفت سریع‌تر در
+              یادگیری زبان.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio-section" id="portfolio-section">
+        <div class="portfolio-header reveal fade-up">
+          <h2>نمونه کارها</h2>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است.
+          </p>
+        </div>
+
+        <div class="portfolio-grid">
+          <div class="portfolio-item reveal zoom-in">
+            <img
+              src="images/portfolio/english-speaking.webp"
+              alt="دوره آنلاین اسپیکینگ بوست"
+            />
+            <div class="overlay-text">
+              <h3>دوره آنلاین Speaking Boost</h3>
+              <p>مکالمه کاربردی سطح متوسط</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item reveal zoom-in">
+            <img
+              src="images/portfolio/english-for-travel.webp"
+              alt="کارگاه انگلیسی برای سفر"
+            />
+            <div class="overlay-text">
+              <h3>کارگاه انگلیسی در سفر</h3>
+              <p>لغات و مکالمات سفر</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item reveal zoom-in">
+            <img
+              src="images/portfolio/english-at-work.webp"
+              alt="دوره زبان انگلیسی کاری"
+            />
+            <div class="overlay-text">
+              <h3>دوره English for Work</h3>
+              <p>انگلیسی حرفه‌ای محل کار</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item reveal zoom-in">
+            <img
+              src="images/portfolio/speak-english.webp"
+              alt="چالش صد روز مکالمه انگلیسی"
+            />
+            <div class="overlay-text">
+              <h3>پروژه 100 Days of Speaking</h3>
+              <p>تمرین روزانه روان‌گویی</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item reveal zoom-in">
+            <img
+              src="images/portfolio/english-pronounciation.webp"
+              alt="دوره تقویت تلفظ انگلیسی"
+            />
+            <div class="overlay-text">
+              <h3>دوره Pronunciation Clinic</h3>
+              <p>تلفظ و لهجه طبیعی</p>
+            </div>
+          </div>
+
+          <div class="portfolio-item reveal zoom-in">
+            <img
+              src="images/portfolio/IELTS.webp"
+              alt="دوره اسپیکینگ آیلتس مستری"
+            />
+            <div class="overlay-text">
+              <h3>دوره IELTS Speaking Mastery</h3>
+              <p>آمادگی کامل اسپیکینگ آیلتس</p>
+            </div>
+          </div>
+        </div>
+        <h4>
+          ویدئوی معرفی دوره آنلاین اسپیکینگ بوست (Speaking Boost)
+        </h4>
+        <div class="video-container">
+          <iframe
+            src="https://www.aparat.com/video/video/embed/videohash/p5710wq/vt/frame"
+            allowfullscreen
+            webkitallowfullscreen
+            mozallowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="booking-section" id="booking-section">
+        <h4 class="reveal fade-up video-label">
+          رزرو زمان با من
+        </h4>
+        <div
+          class="calendly-inline-widget"
+          data-url="https://calendly.com/a-jafari-tech/book"
+          style="
+            position: relative;
+            min-width: 320px;
+            height: 920px;
+            width: 770px;
+          "
+        ></div>
+        <a
+          href=""
+          id="calendly-btn"
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/a-jafari-tech/book'});return false;"
+          >Book time with me</a
+        >
+      </section>
+      <section class="stats-testimonials" id="stats-testimonials">
+        <div class="overlay"></div>
+        <div class="container">
+          <!-- Left side - Stats -->
+          <div class="stats reveal fade-up">
+            <h2>اجازه دهید اعداد سخن بگویند !</h2>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+
+            <div class="stats-grid">
+              <div class="stat-item">
+                <div class="icon">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                </div>
+                <h3>4۰۰+</h3>
+                <p>زبان آموز راضی</p>
+              </div>
+              <div class="stat-item">
+                <div class="icon">
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <h3>۱۰۰%</h3>
+                <p>میزان رضایت زبان آموزان</p>
+              </div>
+              <div class="stat-item">
+                <div class="icon">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                </div>
+                <h3>۸+</h3>
+                <p>سال تجربه تدریس</p>
+              </div>
+              <div class="stat-item">
+                <div class="icon">
+                  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                </div>
+                <h3>15+</h3>
+                <p>از کشور های مخلتف زبان آموز</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right side - Testimonials -->
+          <div class="testimonials reveal fade-up">
+            <h2>مشتریان در مورد من چی می‌گویند ؟</h2>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+
+            <div class="swiper-container">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <!-- Testimonial 1 -->
+                  <div class="swiper-slide">
+                    <div class="testimonial-box">
+                      <p>
+                        کلاس‌های اقای احمدی واقعاً متفاوتن! یادگیری با مثال‌های
+                        واقعی باعث شد بعد از ۳ ماه بتونم راحت صحبت کنم.
+                      </p>
+                      <div class="testimonial-user">
+                        <img
+                          src="images\client\client (1).webp"
+                          alt="زبان‌آموز IELTS"
+                        />
+                        <div>
+                          <strong> محمد اکبری </strong>
+                          <span> زبان‌آموز IELTS </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Testimonial 2 -->
+                  <div class="swiper-slide">
+                    <div class="testimonial-box">
+                      <p>
+                        "روششون خیلی صبر و انرژی داره، باعث شد استرسم از بین
+                        بره!"
+                      </p>
+                      <div class="testimonial-user">
+                        <img
+                          src="images\client\client (2).webp"
+                          alt="زبان‌آموز IELTS"
+                        />
+                        <div>
+                          <strong>علی محمدی</strong>
+                          <span>زبان‌آموز IELTS</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Testimonial 3 -->
+                  <div class="swiper-slide">
+                    <div class="testimonial-box">
+                      <p>
+                        "قبل از کلاس‌ها همیشه از صحبت کردن می‌ترسیدم، اما
+                        تمرین‌های مداوم و بازخوردهای دقیق آقای احمدی باعث شد
+                        اعتماد به نفس پیدا کنم."
+                      </p>
+                      <div class="testimonial-user">
+                        <img
+                          src="images\client\client (3).webp"
+                          alt="زبان‌آموز IELTS"
+                        />
+                        <div>
+                          <strong>رضا دوستی</strong>
+                          <span>زبان‌آموز IELTS</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Testimonial 4 -->
+                  <div class="swiper-slide">
+                    <div class="testimonial-box">
+                      <p>
+                        "روش تدریسشون خیلی منظم و جذابه. برای آزمون IELTS با
+                        ایشون کار کردم و نمره Speaking من از ۵.۵ به ۷ رسید!"
+                      </p>
+                      <div class="testimonial-user">
+                        <img
+                          src="images\client\client (2).webp"
+                          alt="زبان‌آموز IELTS"
+                        />
+                        <div>
+                          <strong>مرتضی امیری</strong>
+                          <span> زبان‌آموز IELTS </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog-section" id="blog-section">
+        <div class="container">
+          <h2 class="section-title">وبلاگ من</h2>
+          <!-- <p class="section-subtitle">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است.
+          </p> -->
+
+          <div class="blog-grid">
+            <!-- Blog Card 1 -->
+            <div class="blog-card reveal slide-up">
+              <img src="images/blog/listening-english.webp" alt="Blog Post" />
+              <div class="blog-content">
+                <h3>چطور مکالمه انگلیسی خود را تقویت کنیم؟</h3>
+                <p>نکاتی ساده برای تمرین مکالمه در خانه</p>
+                <a href="blog-page/blog3.html" class="read-more" target="_blank"
+                  >ادامه مطلب →</a
+                >
+                <div class="blog-footer">
+                  <span> 1403/07/14 </span>
+                  <span>بدون دیدگاه</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Card 2 -->
+            <div class="blog-card reveal slide-up">
+              <img src="images/blog/useful-expressions.webp" alt="Blog Post" />
+              <div class="blog-content">
+                <h3>۵ عبارت رایج در گفت‌وگوی روزمره انگلیسی</h3>
+                <p>اصطلاحاتی که هر روز در فیلم‌ها می‌شنوی</p>
+                <a href="blog-page/blog2.html" class="read-more" target="_blank"
+                  >ادامه مطلب →</a
+                >
+                <div class="blog-footer">
+                  <span> 1403/07/14 </span>
+                  <span>بدون دیدگاه</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Blog Card 3 -->
+            <div class="blog-card reveal slide-up">
+              <img
+                src="images/blog/english-for-interview.webp"
+                alt="Blog Post"
+              />
+              <div class="blog-content">
+                <h3>چطور برای مصاحبه کاری به زبان انگلیسی آماده شویم؟</h3>
+                <p>نمونه پاسخ‌های حرفه‌ای برای سوالات سخت مصاحبه</p>
+                <a href="blog-page/blog1.html" class="read-more" target="_blank"
+                  >ادامه مطلب →</a
+                >
+                <div class="blog-footer">
+                  <span> 1403/07/14 </span>
+                  <span>بدون دیدگاه</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section">
+        <div class="container">
+          <h2 class="section-title">ارتباط با مدرس</h2>
+          <!-- <p class="section-subtitle">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است.
+          </p> -->
+
+          <form
+            class="contact-form reveal fade-up"
+            action="https://webhook.site/1a3f2597-e548-45da-bf3e-9270c674ea1f"
+          >
+            <div class="form-group">
+              <label for="fullname">نام کامل</label>
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="لطفاً نام و نام خانوادگی خود را وارد نمایید"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">شماره تماس</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="مثلاً 09120000000"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">ایمیل</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@email.com"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="level">سطح زبان</label>
+              <select id="level" name="level">
+                <option value="">انتخاب سطح</option>
+                <option value="beginner">مبتدی</option>
+                <option value="intermediate">متوسط</option>
+                <option value="advanced">پیشرفته</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="goal">هدف از یادگیری</label>
+              <select id="goal" name="goal">
+                <option value="">انتخاب هدف</option>
+                <option value="conversation">مکالمه</option>
+                <option value="travel">سفر</option>
+                <option value="exam">آزمون IELTS / TOEFL</option>
+                <option value="work">کار یا مهاجرت</option>
+                <option value="other">سایر</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">پیام یا توضیحات</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="اگر توضیحی دارید، اینجا بنویسید"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="btn"
+              style="background-color: var(--blue-color); color: #fff"
+            >
+              ارسال
+            </button>
+          </form>
+
+          <div class="contact-info reveal fade-up">
+            <div class="info-item">
+              <i class="fa fa-phone icon" aria-hidden="true"></i>
+              <h4>شماره تماس</h4>
+              <p>+98 912 345 6789</p>
+            </div>
+
+            <div class="info-item">
+              <i class="fa fa-envelope-o icon" aria-hidden="true"></i>
+              <h4>آدرس ایمیل</h4>
+              <p>resume@gmail.com</p>
+              <p>office.resume@gmail.com</p>
+            </div>
+
+            <div class="info-item">
+              <i class="fa fa-map-o icon" aria-hidden="true"></i>
+              <h4>آدرس من</h4>
+              <p>تهران، کوچه بیست و پنجم، خیابان ولیعصر</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="clients-section">
+        <div class="container">
+          <div class="social reveal rotate-in">
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/alireza-jafari-tech"
+                ><i class="fab fa-telegram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/alireza-jafari-tech"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/alireza-jafari-tech"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/alireza-jafari-tech"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/alireza-jafari-tech"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </div>
+            <p>من را در شبکه‌های اجتماعی دنبال کنید</p>
+          </div>
+
+          <div class="client-text">
+            <h3>ارتباط با من</h3>
+            <p>
+              برای رزرو کلاس یا دریافت اطلاعات بیشتر، از روش‌های زیر با من در
+              تماس باشید:
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="برو بالا">
+      <i class="fa fa-arrow-up"></i>
+    </button>
+    <footer></footer>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/calendly-widget.js" defer></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        Calendly.initBadgeWidget({
+          url: "https://calendly.com/a-jafari-tech/book",
+          text: "Book time with me",
+          color: "#4e5bf0",
+          textColor: "#ffffff",
+          branding: true,
+        });
+      };
+    </script>
+    <script src="js/animation.js"></script>
+  </body>
+</html>
