@@ -39,59 +39,53 @@
   بخش اصلی
 </p>
 
-
-![hero](https://github.com/user-attachments/assets/78618db6-498f-484f-9e9e-c32cddf87736)
-
-
+<img width="1343" height="642" alt="hero" src="https://github.com/user-attachments/assets/4d1c0993-71b7-4b17-914b-c084752902dd" />
 
 <p align="center">
  بخش درباره من
 </p>
 
-![about](https://github.com/user-attachments/assets/357b5c56-fe1f-4a0e-a35a-570970b8c355)
-
+<img width="1343" height="642" alt="about-me" src="https://github.com/user-attachments/assets/e49f6533-72cf-4db3-864c-334fd879d3a9" />
 
 <p align="center">
   بخش سابقه کار و تجربه
 </p>
 
-![experience](https://github.com/user-attachments/assets/ec1f5847-244d-41b2-ae2b-0856d5f9f88f)
-
-
+<img width="1343" height="642" alt="exp" src="https://github.com/user-attachments/assets/04e80dfd-a278-4ac3-9ec3-00ff9ad890db" />
 
 <p align="center">
   بخش خدمات
 </p>
 
-![services](https://github.com/user-attachments/assets/f5294004-46c3-430e-84a1-4ed66cd3c18d)
+<img width="1343" height="641" alt="services" src="https://github.com/user-attachments/assets/8f1578e7-b7d4-4d8f-a14a-6743a5729dc8" />
 
 <p align="center">
   بخش نمونه کار ها
 </p>
 
-![portfolio](https://github.com/user-attachments/assets/e21fb70d-fb37-429d-b887-b6925ed45b35)
+<img width="1343" height="641" alt="portfolio" src="https://github.com/user-attachments/assets/c0e06984-e22b-4c35-a438-c6d84645adfa" />
+
+<p align="center">
+  نمونه تدریس
+</p>
 
 <p align="center">
   بخش رزرو
 </p>
 
-![booking](https://github.com/user-attachments/assets/19ab65d6-f3d8-495d-b2a8-ca195bbee7cb)
-
-
+<img width="1343" height="641" alt="book-time" src="https://github.com/user-attachments/assets/645aaf07-916b-4e3d-8860-16b50af8b65d" />
 
 <p align="center">
   بخش نظرات مشتریان
 </p>
 
-
-![testimonial](https://github.com/user-attachments/assets/871437a1-7f39-45d6-8f97-b544b01c74c0)
-
+<img width="1343" height="642" alt="testimonial" src="https://github.com/user-attachments/assets/3609bf98-50f3-4211-a4cb-94bb873920cc" />
 
 <p align="center">
   بخش ارتباط با من
 </p>
 
-![contact](https://github.com/user-attachments/assets/533f71c7-f935-431c-99e7-1a83ab5020dd)
+<img width="1343" height="641" alt="contact" src="https://github.com/user-attachments/assets/37bf6c02-e4ad-44a6-9970-d77adef2e222" />
 
 ## ⚙️ نصب و راه‌اندازی
 
