@@ -39,53 +39,66 @@
   بخش اصلی
 </p>
 
-<img width="1343" height="642" alt="hero" src="https://github.com/user-attachments/assets/4d1c0993-71b7-4b17-914b-c084752902dd" />
+![hero](https://github.com/user-attachments/assets/6a879660-64bb-4151-bca9-7da7e29ce26d)
+
 
 <p align="center">
  بخش درباره من
 </p>
 
-<img width="1343" height="642" alt="about-me" src="https://github.com/user-attachments/assets/e49f6533-72cf-4db3-864c-334fd879d3a9" />
+![about-me](https://github.com/user-attachments/assets/254e66cd-213b-4881-9696-6c6464ef523a)
+
 
 <p align="center">
   بخش سابقه کار و تجربه
 </p>
 
-<img width="1343" height="642" alt="exp" src="https://github.com/user-attachments/assets/04e80dfd-a278-4ac3-9ec3-00ff9ad890db" />
+![exp](https://github.com/user-attachments/assets/84c00758-60fa-4df4-a3c8-37cd524753ae)
+
 
 <p align="center">
   بخش خدمات
 </p>
 
-<img width="1343" height="641" alt="services" src="https://github.com/user-attachments/assets/8f1578e7-b7d4-4d8f-a14a-6743a5729dc8" />
+![services](https://github.com/user-attachments/assets/5fc379b8-b342-4a7e-a123-e13e5fd3a22b)
+
 
 <p align="center">
   بخش نمونه کار ها
 </p>
 
-<img width="1343" height="641" alt="portfolio" src="https://github.com/user-attachments/assets/c0e06984-e22b-4c35-a438-c6d84645adfa" />
+![portfolio](https://github.com/user-attachments/assets/599800bc-8ae6-40ee-82b4-7c963dd01320)
+
 
 <p align="center">
   نمونه تدریس
 </p>
 
+![video](https://github.com/user-attachments/assets/2dfc7432-4f2e-4a08-adaa-894302c11b8b)
+
+
 <p align="center">
   بخش رزرو
 </p>
 
-<img width="1343" height="641" alt="book-time" src="https://github.com/user-attachments/assets/645aaf07-916b-4e3d-8860-16b50af8b65d" />
+![book-time](https://github.com/user-attachments/assets/8d848c2e-de3c-40e6-b7d7-4e701d210267)
+
 
 <p align="center">
   بخش نظرات مشتریان
 </p>
 
-<img width="1343" height="642" alt="testimonial" src="https://github.com/user-attachments/assets/3609bf98-50f3-4211-a4cb-94bb873920cc" />
+![testimonial](https://github.com/user-attachments/assets/3a8b396d-38c3-4ad2-b3cf-8baafde7b605)
+
 
 <p align="center">
   بخش ارتباط با من
 </p>
 
-<img width="1343" height="641" alt="contact" src="https://github.com/user-attachments/assets/37bf6c02-e4ad-44a6-9970-d77adef2e222" />
+![contact](https://github.com/user-attachments/assets/13b53dab-fba7-4366-a640-6f3b1cdf5aa6)
+![contact-info](https://github.com/user-attachments/assets/4e08dca2-6e79-43fc-b1af-4b550bf1c103)
+
+
 
 ## ⚙️ نصب و راه‌اندازی
 
