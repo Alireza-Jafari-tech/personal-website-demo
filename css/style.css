@@ -1592,9 +1592,9 @@ textarea:focus {
 
 /* Calendly iframe */
 .booking-section .calendly-inline-widget {
-  width: 100%;
+  width: 100% !important;
   height: 100%;
-  border: none;
+  border: none !important;
 }
 
 /* Tablets */
@@ -1606,8 +1606,8 @@ textarea:focus {
     position: relative;
     position: relative;
     min-width: 240px;
-    height: 920px;
-    width: 750px;
+    height: 920px !important;
+    width: 750px !important;
   }
 }
 
@@ -1620,20 +1620,21 @@ textarea:focus {
     position: relative;
     position: relative;
     min-width: 240px;
-    height: 920px;
-    width: 430px;
+    height: 920px !important;
+    width: 430px !important;
+	min-width: unset !important;
   }
 }
 
-@media (max-width: 420px) {
-  .calendly-inline-widget {
-    position: relative;
-    position: relative;
-    min-width: 240px;
-    height: 920px;
-    width: 330px;
+@@media (max-width: 420px) {
+  .calendly-inline-widget,
+  .calendly-inline-widget iframe {
+    width: 330px !important;
+    height: 920px !important;
+	min-width: unset !important;
   }
 }
+
 
 /* Ultra-small devices (<350px) */
 @media (max-width: 360px) {
@@ -1647,8 +1648,9 @@ textarea:focus {
     position: relative;
     position: relative;
     min-width: 240px;
-    height: 920px;
-    width: 330px;
+    height: 920px !important;
+    width: 330px !important;
+	min-width: unset !important;
   }
 }
 
@@ -1664,8 +1666,9 @@ textarea:focus {
     position: relative;
     position: relative;
     min-width: 240px;
-    height: 920px;
-    width: 230px;
+    height: 920px !important;
+    width: 230px !important;
+	min-width: unset !important;
   }
 }
 
